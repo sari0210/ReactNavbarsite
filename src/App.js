@@ -1,25 +1,29 @@
-import Navbar from "./Components/Navbar"
-import Pricing from "./pages/Pricing"
-import Home from "./pages/Home"
-import About from "./pages/About"
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./Components/Navbar";
+import Home from "./pages/Home";
+import Episodios from "./pages/Episodios";
+import Lugares from "./pages/Lugares";
+
+
 
 function App() {
   return (
     <>
-    <h1>esto es el App.js</h1>
+    <div>
   
       <Navbar/>
-      
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/pricing" element={<Pricing />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/episodios" element={<Episodios />} />
+          <Route path="lugares" element={<Lugares />} />
         </Routes>
+
+      </div>
+      
       </div>
     </>
   )
 }
 
-export default App
+export default App;
