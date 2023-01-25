@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Home from "./pages/Home";
 import Episodios from "./pages/Episodios";
-import Lugares from "./pages/Lugares";
+import Lugares from "./style.css";
 
 
 
