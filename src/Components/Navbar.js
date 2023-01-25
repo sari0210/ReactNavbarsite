@@ -1,13 +1,11 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Home from "../pages/Home";
-import Episodios from "../pages/Episodios";
-import Lugares from "../pages/Lugares";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
+
 function Navbar() {
-    return ( 
-<BrowserRouter>
+    return (
+        <>
             <header>
                 <nav>
                     <ul>
@@ -23,16 +21,9 @@ function Navbar() {
                     </ul>
                 </nav>
             </header>
+        </>
 
-            {/* Asignacion de rutas con los componentes*/}
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path='/episodios' element={<Episodios />} />
-                <Route path='/lugares' element={<Lugares />} />
-            </Routes>
-        </BrowserRouter>
-
-     );
+    );
 }
 
 export default Navbar;

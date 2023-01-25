@@ -9,18 +9,18 @@ import Lugares from "./pages/Lugares";
 function App() {
   return (
     <>
-    <div>
-  
-      <Navbar/>
-      <div className="container">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/episodios" element={<Episodios />} />
-          <Route path="lugares" element={<Lugares />} />
-        </Routes>
+      <div>
+        <Navbar />
 
-      </div>
-      
+        <div className="container">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/episodios" element={<Episodios />} />
+            <Route path="lugares" element={<Lugares />} />
+          </Routes>
+
+        </div>
+
       </div>
     </>
   )
