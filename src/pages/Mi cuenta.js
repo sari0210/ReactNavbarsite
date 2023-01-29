@@ -1,5 +1,4 @@
-export default function MiCuenta() {
-    return (
-    <h1>Mi Cuenta</h1>)
-  };
-  
+export default function miCuenta() {
+  return (
+  <h1>Mi Cuenta</h1>)
+};

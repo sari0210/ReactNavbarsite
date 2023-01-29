@@ -1,6 +1,5 @@
 export default function Desarrolladoras() {
-    return (
-    <h1>Desarrolladoras</h1>
-    )
-  };
+  return (
+  <h1>Desarrolladoras</h1>)
+};
   
